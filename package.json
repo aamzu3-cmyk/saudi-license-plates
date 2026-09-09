@@ -1,0 +1,24 @@
+{
+  "name": "saudi-license-plates",
+  "version": "1.0.0",
+  "description": "منصة احترافية لإنشاء وتخصيص لوحات السيارات السعودية",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install",
+    "dev": "npm run dev --workspace=frontend & npm run dev --workspace=backend",
+    "build": "npm run build --workspace=frontend && npm run build --workspace=backend",
+    "start": "npm run start --workspace=backend"
+  },
+  "keywords": [
+    "saudi",
+    "license-plates",
+    "customization",
+    "design"
+  ],
+  "author": "aamzu3-cmyk",
+  "license": "MIT"
+}

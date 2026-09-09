@@ -1,2 +1,52 @@
-# saudi-license-plates
-منصة احترافية لإنشاء وتخصيص لوحات السيارات السعودية - Saudi License Plates Customization Platform
+# منصة لوحات السيارات السعودية 🚗
+## Saudi License Plates Customization Platform
+
+منصة احترافية وحديثة لإنشاء وتخصيص لوحات السيارات السعودية بتصاميم متعددة وفخمة.
+
+### المميزات الرئيسية ✨
+
+- 🎨 **تصاميم متعددة**: عشرات التصاميم المستوحاة من الهوية السعودية
+- 📱 **تجاوبي تماماً**: يعمل على جميع الأجهزة (موبايل، تابلت، كمبيوتر)
+- 🔧 **لوحة تحكم متقدمة**: إضافة وتعديل وحذف التصاميم بسهولة
+- 📥 **تحميل الصور**: حفظ لوحاتك بجودة عالية
+- 🔗 **المشاركة**: شارك تصميمك مع الآخرين
+- 🎯 **واجهة عربية**: تصميم RTL احترافي
+- 💾 **قاعدة بيانات**: حفظ جميع التصاميم والقوالب
+
+### التكنولوجيا المستخدمة 💻
+
+**Frontend:**
+- React 18 + Vite
+- Tailwind CSS
+- Axios
+- React Router
+
+**Backend:**
+- Node.js + Express
+- MongoDB
+- JWT Authentication
+- Multer (لرفع الصور)
+
+### البدء السريع 🚀
+
+```bash
+# استنساخ المستودع
+git clone https://github.com/aamzu3-cmyk/saudi-license-plates.git
+cd saudi-license-plates
+
+# تثبيت المكتبات
+npm install
+
+# تشغيل المشروع
+npm start
+```
+
+### الهيكل 📁
+
+```
+saudi-license-plates/
+├── frontend/              # واجهة المستخدم
+├── backend/               # الخادم
+├── database/              # نماذج قاعدة البيانات
+└── docs/                  # التوثيق
+```
